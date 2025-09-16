@@ -9,7 +9,7 @@ This project uses **Support Vector Machines (SVMs)** to predict whether a user w
 **Grid Search** is a brute-force method that tries **all possible combinations of hyperparameters** you specify.  
 
 - Example: 
-  - `C = [0.25, 0.5, 0.75, 1]`  
+  - `C = [0.25, 0.5, 1]`  
   - `kernel = ['linear', 'rbf']`  
 
   → Grid Search will train and evaluate the model **6 times** (3×2) using every combination.
