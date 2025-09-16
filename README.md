@@ -23,14 +23,14 @@ This project uses **Support Vector Machines (SVMs)** to predict whether a user w
 ---
 
 ## ✨ Features
-- 📂 Load and preprocess dataset
-- 📏 Feature scaling with `StandardScaler`
-- 🤖 Train an SVM classifier
-- 🔍 Apply **Grid Search** to tune:
+- Load and preprocess dataset
+- Feature scaling with `StandardScaler`
+- Train an SVM classifier
+- Apply **Grid Search** to tune:
   - `C` → Regularization strength  
   - `kernel` → Type of SVM (linear or RBF)  
   - `gamma` → Controls flexibility of RBF decision boundaries  
-- ✅ Report **best accuracy** and **best parameters**
+- Report **best accuracy** and **best parameters**
 
 ---
 
